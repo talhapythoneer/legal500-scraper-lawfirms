@@ -1,0 +1,32 @@
+# --- Scraper output & working data ---
+# The full scraped dataset is a client deliverable, not repo content.
+# Re-generate it any time with: python legal500_scraper.py
+legal500_cache.jsonl
+legal500_law_firms.xlsx
+scrape_run.log
+*.jsonl
+!sample_output/*.jsonl
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Editor / OS junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Claude Code local project state ---
+.claude/
